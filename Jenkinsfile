@@ -30,7 +30,7 @@ node {
     stage ('Launch docker containers') {
       try {
       // Lauch Jekyll container here
-           sh "docker run -v /home/denferreira/denilson_blog:/data --name denilson_blog${env.BUILD_NUMBER} denilsonpfus/jekyll:${env.BUILD_NUMBER}" 
+           sh "docker run -v /home/denferreira/denilson_blog:/data --name denilson_blog${env.BUILD_NUMBER} denilsonpfus/jekyll" 
       // Lauch Apache container here
            sh "docker run -d -P --volumes-from denilson_blog${env.BUILD_NUMBER} --name apache_server${env.BUILD_NUMBER} denilsonpfus/apache:${env.BUILD_NUMBER}"
       
