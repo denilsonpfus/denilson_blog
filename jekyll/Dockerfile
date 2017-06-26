@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER Denilson Ferreira <denilsonpfus@gmail.com>
-ENV REFRESHED_AT 2017-06-20 18:52
+ENV REFRESHED_AT 2017-06-26 16:38
 
 RUN apt-get -yqq update
 RUN apt-get -yqq install ruby ruby-dev build-essential nodejs
