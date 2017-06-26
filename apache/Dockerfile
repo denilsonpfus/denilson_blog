@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER Denilson Ferreira <denilsonpfus@gmail.com>
-ENV REFRESHED_AT 2017-06-20 19:13
+ENV REFRESHED_AT 2017-06-26 17:20
 
 RUN apt-get -yqq update
 RUN apt-get -yqq install apache2
