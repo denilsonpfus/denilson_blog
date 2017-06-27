@@ -11,12 +11,12 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Denilson's Docker-Driven Blog.
+title : Denilson's Docker-Driven Blog !!!
 tagline: A blog isn't just about words or Docker.
 author :
-  name : KPX314159
-  email : KPX314159
-  github : KPX314159
+  name : Denilson Ferreira
+  email : denilsonpfus@email.com
+  github : denilsonpfus
   
 
 # The production_url is only used when full-domain names are needed
